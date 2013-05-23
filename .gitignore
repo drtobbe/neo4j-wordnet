@@ -1,0 +1,12 @@
+twitter.db
+twitter-emb.db
+target
+*.iml
+*.ipr
+*.iws
+.idea
+.DS_Store
+.classpath
+.project
+.settings
+.shell_history
