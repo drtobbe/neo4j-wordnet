@@ -25,8 +25,8 @@ import com.tinkerpop.blueprints.oupls.sail.GraphSail;
  * @author Joshua Shinavier (http://fortytwo.net)
  */
 public class TurtleLoader {
-    private static final String SOURCE = "/Users/josh/data/shortterm/wordnet-loading/wordnet/rdf";
-    private static final String DEST = "/Users/josh/data/shortterm/wordnet-loading/neo4j";
+    private static final String SOURCE = "../wordnet/rdf";
+    private static final String DEST = "target/wordnet.db";
     private static final long BUFFER_SIZE = 1000;
 
     public static void main(final String[] args) {
